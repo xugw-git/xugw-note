@@ -1,9 +1,10 @@
 ## django.views.generic.base.View
 
 **base.py** 中主要有三个类：  
-`View` 类及其派生类：处理 HTTP 请求。根据 HTTP 请求方法的不同做出相应处理；  
-`TemplateResponseMixin` 及其派生类：渲染模板；  
-`ContextMixin` 及其派生类：获取渲染模板所需的模板变量字典。
+
+- `View` 类及其派生类：处理 HTTP 请求。根据 HTTP 请求方法的不同做出相应处理；  
+- `TemplateResponseMixin` 及其派生类：渲染模板；  
+- `ContextMixin` 及其派生类：获取渲染模板所需的模板变量字典。
 
 ### View
 

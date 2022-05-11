@@ -24,4 +24,3 @@
 ## rest-framework 视图
 
 - [📑 视图组件源码](/笔记/rest-framework/rest-views.md)
-- [📑 视图文件结构](/笔记/rest-framework/rest-views-files.md)
