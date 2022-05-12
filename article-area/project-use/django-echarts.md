@@ -1,4 +1,4 @@
-# Django 模板中添加 Echarts
+# Django 模板中使用 Echarts
 
 ## 前言
 

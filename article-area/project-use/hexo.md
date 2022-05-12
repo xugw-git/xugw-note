@@ -65,7 +65,7 @@ hexo generate  #或 hexo g
 hexo server  #或 hexo s 
 ```
 
-?> 本地服务器默认网址： <http://localhost:4000/>。
+本地服务器默认网址： <http://localhost:4000/>。
 
 ## 主题更换
 
@@ -311,13 +311,13 @@ ssh -T git@gitee.com
 npm install hexo-deployer-git --save
 ```
 
-进入仓库，复制SSH `git@gitee.com:xugw-gitee/xugw-gitee.git`，
+进入仓库，复制SSH `git@gitee.com:xxx/xxx.git`，
 修改Hexo目录下的配置文件：
 
 ``` yaml
 deploy:
   type: git
-  repo: git@gitee.com:xugw-gitee/xugw-gitee.git
+  repo: git@gitee.com:xxx/xxx.git
   branch: master
   message:
 ```
