@@ -2,4 +2,4 @@
 * [📚 笔记](/note-area/)
 * [📔 文章](/article-area/)
 * [📝 代码](/code-snippet/)
-* [🔗 链接](/external-link/)
+* [📒 作品](/works-link/)
