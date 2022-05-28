@@ -1,4 +1,4 @@
-# MoviePy-视频编辑模块
+# MoviePy - 视频编辑模块
 
 - MoviePy 是一个用于视频编辑的 Python 模块，它可被用于一些基本操作、视频合成、视频处理和创建高级特效。它可对大多数常见视频格式进行读写，包括GIF。
 
@@ -8,7 +8,7 @@
 
 ?> <https://github.com/jiaaro/pydub#installation>
 
-本文将通过 MoviePy 和 Pydub 给上一篇文章的东京奥运会冠军搜索热度视频添加开头和BGM。
+本文使用 MoviePy 给上一篇的东京奥运会冠军搜索热度视频添加开头和BGM。
 
 ## 安装
 
@@ -16,13 +16,6 @@
 pip install moviepy
 pip install pydub
 ```
-
-## 基本概念
-
-在 MoviePy 中，核心对象是 clip ，所有剪辑的基类是 Clip ，对应的模块为 moviepy.Clip ，常用的剪辑类包括：VideoClip 和 AudioClip，其中，
-
-- VideoClip的常用子类有 VideoFileClip 、 CompositeVideoClip 、 ImageSequenceClip 、 ImageClip（TextClip 、 ColorClip）；
-- AudioClip的常用子类有 AudioFileClip 、 CompositeAudioClip。
 
 ## 视频拼接
 

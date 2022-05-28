@@ -1,12 +1,10 @@
-# Hexo-静态博客框架
-
-## 前言
+# Hexo - 静态博客框架
 
 Hexo 是一个快速、简洁且高效的博客框架。  
 
 ?> 文档：<https://hexo.io/zh-cn/docs/>
 
-## 安装
+## 安装 & 初始化
 
 - 需提前安装 `git` 和 `Node.js`
 - 准备完成之后，即可使用 npm 安装 Hexo：
@@ -14,10 +12,6 @@ Hexo 是一个快速、简洁且高效的博客框架。
 ``` bash
 npm install -g hexo-cli
 ```
-
-## 建站
-
-安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件：
 
 ``` bash
 hexo init <folder>  #如果没有设置folder，Hexo默认在目前的文件夹建立网站。

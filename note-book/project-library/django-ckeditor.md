@@ -1,19 +1,15 @@
 # Django 后台使用 CKEditor
 
-## 前言
-
 django-ckeditor 是一个集成 ckeditor 富文本编辑器的 django 第三方库。
 
 ?> <https://github.com/django-ckeditor/django-ckeditor/>
 
-## 安装
+## 安装 & 配置
 
 ``` bash
 pip install django-ckeditor
 pip install pillow
 ```
-
-## 配置应用
 
 ``` python
 # settings.py

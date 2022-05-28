@@ -1,6 +1,4 @@
-# Mermaid-图表绘制工具
-
-## 前言
+# Mermaid - 图表绘制工具
 
 Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markdown 的文本语法来实现图表的创建和动态修改。
 

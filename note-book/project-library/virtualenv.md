@@ -1,6 +1,4 @@
-# Python 虚拟环境
-
-## 前言
+# Virtaulenvwrapper
 
 Python 的虚拟解释器环境技术可以帮助我们创建多个彼此分隔的虚拟环境，每个虚拟环境可以安装各自需要的第三方库，互不干扰。
 
@@ -47,25 +45,25 @@ rmvirtualenv <virtualenv_name>
 
 ## 其他相关指令
 
-### 查看当前已安装库的版本
+- 查看当前已安装库的版本
 
 ``` bash
 pip freeze
 ```
 
-### 导入TXT中的所有包
+- 导入TXT中的所有包
 
 ``` bash
 pip install -r requirements.txt
 ```
 
-### 导出所有包到TXT
+- 导出所有包到TXT
 
 ``` bash
 pip freeze > requirements.txt
 ```
 
-### 进入 site-packages 目录
+- 进入 site-packages 目录
 
 ``` bash
 cd sitepackages

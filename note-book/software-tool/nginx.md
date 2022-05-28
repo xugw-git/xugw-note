@@ -1,18 +1,11 @@
-# nginx 部署vue项目
-
-## 前言
+# nginx 部署 vue 项目
 
 nginx 是一个高性能的 HTTP 和反向代理 web 服务器。  
-
-?> <https://nginx.org/en/download.html>
 
 ## nginx 指令
 
 ``` bash
 start nginx      //启动
-```
-
-``` bash
 .\nginx -s quit  //停止
 ```
 

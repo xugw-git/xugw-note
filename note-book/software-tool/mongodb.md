@@ -1,7 +1,5 @@
 # MongoDB & Mongoose
 
-## 前言
-
 MongoDB 是一个基于分布式文件存储的非关系型数据库。  
 MongoDB Atlas 是 MongoDB 官方提供的免费云数据库。  
 Mongoose 是一个对象文档模型库，是对 Nodejs 原生的 MongoDB 模块进一步的优化封装。

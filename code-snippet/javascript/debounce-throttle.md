@@ -66,11 +66,11 @@ function throttle(func,delay=500){
 }
 ```
 
-## 使用第三方库
+## 库
 
 ?> <https://github.com/niksy/throttle-debounce>
 
-``` js
+``` bash
 npm install throttle-debounce
 ```
 
