@@ -37,28 +37,6 @@ Date.now()
 
 ## 库
 
-### moment
-
-?> <https://github.com/moment/moment>
-
-``` bash
-npm install moment --save
-```
-
-``` js
-import moment from 'moment'
-
-moment('2022/5/28 13:00:00', 'yyyy-MM-DD hh:mm:ss')
-moment('2022/5/28 13:00:00').format('yyyy-MM-DD hh:mm:ss')
-// 2022-05-28 13:00:00
-moment().valueOf()
-// Date.now()
-moment("20111031", "YYYYMMDD").fromNow()
-// 11年前
-```
-
-### dayjs
-
 ?> <https://github.com/iamkun/dayjs>
 
 ``` bash

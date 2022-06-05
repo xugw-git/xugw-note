@@ -5,10 +5,13 @@
 - [bootstrap](https://github.com/twbs/bootstrap) 流行的响应式 UI 框架
 - [Bootstrap Icons](https://github.com/twbs/icons) Bootstrap 官方图标库
 - [echarts](https://github.com/apache/echarts) 一个基于 JavaScript 的开源可视化图表库
+- [dayjs](https://github.com/iamkun/dayjs) 一个替代 Moment 的 JavaScript 日期时间库
 - [sweetalert2](https://github.com/sweetalert2/sweetalert2) 一个零依赖、响应式、可定制的消息弹框
 - [tippyjs](https://github.com/atomiks/tippyjs) 一个 Tooltip、popover、下拉菜单库
 - [animate.css](https://github.com/animate-css/animate.css) 一个跨浏览器的 CSS 动画库
 - [popmotion](https://github.com/Popmotion/popmotion) 一个函数式声明的动画库
+- [uni-app](https://github.com/dcloudio/uni-app) 使用 Vue 开发小程序、H5、App 的统一前端框架
+- [uView](https://github.com/umicro/uView2.0) 一个 uni-app UI 组件库
 
 ## vue 相关
 
@@ -39,8 +42,6 @@
 - [moviepy](https://github.com/Zulko/moviepy) 一个 python 视频编辑库
 - [pyecharts](https://github.com/pyecharts/pyecharts) 一个 python 版本的 echarts 图表库
 - [pandas](https://github.com/pandas-dev/pandas) 基于 numpy 的强大的 Python 数据分析工具包
-- [numpy](https://github.com/numpy/numpy) 用于科学计算的 python 工具包
-- [requests](https://github.com/psf/requests) 一个简单优雅的 HTTP 库
 
 ## 静态网站生成器
 

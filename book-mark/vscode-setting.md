@@ -1,6 +1,7 @@
 # vscode 配置
 
 ``` json
+// settings.json
 {
 // 字体设置
 "editor.fontSize": 15,

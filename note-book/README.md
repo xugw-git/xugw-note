@@ -25,7 +25,7 @@
 
 💿[视图组件源码](/note-book/rest-framework/rest-views.md)
 
-## 开源项目 & 软件工具
+## 开源项目
 
 💿[Mockjs](/note-book/project-library/mockjs.md)
 💿[Hexo](/note-book/project-library/hexo.md)
@@ -35,8 +35,10 @@
 💿[MoviePy](/note-book/project-library/moviepy.md)
 💿[pyecharts](/note-book/project-library/pyecharts.md)
 💿[Virtaulenvwrapper](/note-book/project-library/virtualenv.md)
+
+## 软件工具
+
 💿[nginx 部署 vue](/note-book/software-tool/nginx.md)
-💿[Mermaid](/note-book/software-tool/mermaid.md)
 💿[MySQL & HeidiSQL](/note-book/software-tool/mysql.md)
 💿[MongoDB & Mongoose](/note-book/software-tool/mongodb.md)
 💿[WSL2-Ubuntu](/note-book/software-tool/wsl2.md)
