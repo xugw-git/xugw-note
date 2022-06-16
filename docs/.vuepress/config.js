@@ -8,10 +8,11 @@ module.exports = {
     title: 'XUGW-NOTE',
     theme: defaultTheme({
         logo: '/images/hero.png',
-        lastUpdated: false,
         repo: 'https://github.com/xugw-git/xugw-note',
         repoLabel: '📦 仓库',
         editLinkText: '在 Github 上编辑此页',
+        contributors: false,
+        lastUpdatedText: '上次更新',
         notFound: ['页面不存在'],
         backToHome: '回到首页',
         navbar: [
