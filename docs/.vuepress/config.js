@@ -11,6 +11,7 @@ module.exports = {
         repo: 'https://github.com/xugw-git/xugw-note',
         repoLabel: '📦 仓库',
         editLinkText: '在 Github 上编辑此页',
+        docsDir: 'docs',
         contributors: false,
         lastUpdatedText: '上次更新',
         notFound: ['页面不存在'],
