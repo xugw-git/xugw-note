@@ -30,6 +30,7 @@
 
 ## 其他
 
+- [nvm-windows](https://github.com/coreybutler/nvm-windows) 适用于 Windows 的 nodejs 版本管理工具
 - [axios](https://github.com/axios/axios) 一个基于 promise 的网络请求库
 - [mockjs](https://github.com/nuysoft/Mock) 一款模拟数据生成器
 - [express](https://github.com/expressjs/express) 基于 Node.js 的 Web 开发框架
@@ -77,3 +78,4 @@
 - [SQLite Viewer](/book-mark/#vscode-插件) SQLite 查看插件
 - [markmap](/book-mark/#vscode-插件) Markdown 思维图工具
 - [Project Manager](/book-mark/#vscode-插件) 项目文件夹管理
+- [Mintlify Doc Writer](/book-mark/#vscode-插件) 自动生成注释文档
