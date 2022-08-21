@@ -1,4 +1,4 @@
-# Django 后台使用 CKEditor
+# django 后台使用 CKEditor
 
 django-ckeditor 是一个集成 ckeditor 富文本编辑器的 django 第三方库。
 

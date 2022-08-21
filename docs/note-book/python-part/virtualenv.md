@@ -1,4 +1,4 @@
-# Virtaulenvwrapper
+# virtaulenvwrapper - 虚拟环境工具
 
 Python 的虚拟解释器环境技术可以帮助我们创建多个彼此分隔的虚拟环境，每个虚拟环境可以安装各自需要的第三方库，互不干扰。
 

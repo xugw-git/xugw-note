@@ -1,4 +1,4 @@
-# Django-haystack & Whoosh
+# django-haystack & Whoosh
 
 Django-haystack 是一个专门为 Django 提供搜索功能的第三方应用，它支持 Solr、Elasticsearch、Whoosh、Xapian 等多种搜索引擎。
 

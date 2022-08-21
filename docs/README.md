@@ -5,20 +5,14 @@ heroText: XUGW-NOTE
 heroImage: /images/hero.png
 tagline: 温故而知新，可以为师矣。
 actions:
-  - text: 笔记
+  - text: 笔记 →
     link: /note-book/
-    type: secondary
-  - text: 书签
-    link: /book-mark/
-    type: secondary
-  - text: 作品
-    link: /works-link/
-    type: secondary  
+    type: primary
 features:
   - title: 📔 笔记
-    details: 我的笔记、文章、代码片段
+    details: 我的笔记、文章
   - title: 🏷️ 书签
-    details: 一些框架、库、插件的链接
+    details: 使用过的框架、库以及插件
   - title: 🎨 作品
-    details: 练习过的案例和项目链接
+    details: 练习过的案例和项目
 ---

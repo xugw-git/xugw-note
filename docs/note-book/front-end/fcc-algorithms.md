@@ -1,4 +1,4 @@
-# JavaScript 算法
+# free-code-camp JavaScript 算法
 
 ## 基础算法
 

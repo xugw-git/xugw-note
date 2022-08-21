@@ -1,18 +1,18 @@
-# 防抖 & 节流
+# debounce & throttle
 
 ## debounce
 
 > 防抖: n 秒后执行该事件，若在 n 秒内被重复触发，则重新计时
 
 ``` js
-// 实现
+// 使用 onresize 设置 echartsInstance.resize 方法
 let timer = null
 window.onresize = () => {
     if (timer !== null) {
         clearTimeout(timer)
     }
     timer = setTimeout(() => {
-        console.log('执行目标函数')
+        this.pieChart.resize()
         timer = null
     }, 500)
 }
@@ -39,12 +39,12 @@ function debounce(func,delay=500){
 > n 秒内只运行一次，若在 n 秒内重复触发，只有一次生效
 
 ``` js
-// 实现
+// 使用 onresize 设置 echartsInstance.resize 方法
 let mark = true
 window.onresize = () => {
     if (mark) {
         setTimeout(() => {
-            console.log('执行目标函数')
+            this.pieChart.resize()
             mark = true
         }, 500)
     }
@@ -68,7 +68,7 @@ function throttle(func,delay=500){
 }
 ```
 
-## 库
+## throttle-debounce 库
 
 > <https://github.com/niksy/throttle-debounce>
 

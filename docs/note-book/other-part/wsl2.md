@@ -1,4 +1,4 @@
-# WSL2-Ubuntu
+# WSL2 - Ubuntu-20.04
 
 WSL 2 是适用于 Linux 的 Windows 子系统体系结构的一个新版本。  
 

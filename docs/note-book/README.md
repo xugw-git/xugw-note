@@ -1,10 +1,23 @@
 # 📔 笔记
 
-## Free Code Camp
+## 前端
 
-- [JavaScript](/note-book/free-code-camp/javascript.md)
-- [JavaScript 算法](/note-book/free-code-camp/js-algorithms.md)
-- [后端开发和 APIs](/note-book/free-code-camp/backend.md)
+- [free-code-camp JavaScript](/note-book/front-end/fcc-javascript.md)
+- [free-code-camp JavaScript 算法](/note-book/front-end/fcc-algorithms.md)
+- [debounce & throttle](/note-book/front-end/debounce-throttle.md)
+- [date 对象](/note-book/front-end/date.md)
+- [echarts - 可视化图表库](/note-book/front-end/echarts.md)
+
+## vue
+
+- [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
+
+## uni-app
+
+## nodejs
+
+- [free-code-camp 后端开发](/note-book/nodejs-part/fcc-backend.md)
+- [MongoDB & Mongoose](/note-book/nodejs-part/mongodb.md)
 
 ## JS 数据结构 & 算法
 
@@ -21,30 +34,22 @@
 - [图](/note-book/data-structure/图.md)
 - [排序算法](/note-book/data-structure/排序算法.md)
 
-## rest-framework
+## 其他
 
-- [视图组件源码](/note-book/rest-framework/rest-views.md)
+- [Hexo - 静态博客框架](/note-book/other-part/hexo.md)
+- [Mockjs - 模拟数据生成器](/note-book/other-part/mockjs.md)
+- [MySQL & HeidiSQL](/note-book/other-part/mysql.md)
+- [WSL2 - Ubuntu-20.04](/note-book/other-part/wsl2.md)
 
-## 开源项目
+## python
 
-- [Mockjs](/note-book/project-library/mockjs.md)
-- [Hexo](/note-book/project-library/hexo.md)
-- [django-ckeditor](/note-book/project-library/django-ckeditor.md)
-- [django-haystack & whoosh](/note-book/project-library/django-haystack.md)
-- [bar chart race](/note-book/project-library/bar-chart-race.md)
-- [MoviePy](/note-book/project-library/moviepy.md)
-- [pyecharts](/note-book/project-library/pyecharts.md)
-- [Virtaulenvwrapper](/note-book/project-library/virtualenv.md)
+- [pyecharts - 可视化图表库](/note-book/python-part/pyecharts.md)
+- [bar chart race - 条形竞赛图模块](/note-book/python-part/bar-chart-race.md)
+- [moviepy - 视频编辑模块](/note-book/python-part/moviepy.md)
+- [virtaulenvwrapper - 虚拟环境管理工具](/note-book/python-part/virtualenv.md)
 
-## 软件工具
+## django
 
-- [nginx 部署 vue](/note-book/software-tool/nginx.md)
-- [MySQL & HeidiSQL](/note-book/software-tool/mysql.md)
-- [MongoDB & Mongoose](/note-book/software-tool/mongodb.md)
-- [WSL2-Ubuntu](/note-book/software-tool/wsl2.md)
-
-## 代码片段
-
-- [debounce & throttle](/note-book/code-snippet/debounce-throttle.md)
-- [Date](/note-book/code-snippet/date.md)
-- [echarts](/note-book/code-snippet/echarts.md)
+- [django-ckeditor 富文本编辑器插件](/note-book/django-framework/django-ckeditor.md)
+- [django-haystack & whoosh 搜索功能插件](/note-book/django-framework/django-haystack.md)
+- [rest-framework 视图组件源码](/note-book/django-framework/rest-views.md)

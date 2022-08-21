@@ -41,12 +41,34 @@ module.exports = {
                     text: '笔记',
                     children: [
                         {
-                            text: 'free-code-camp',
+                            text: '前端',
                             collapsible: true,
                             children: [
-                                '/note-book/free-code-camp/javascript.md',
-                                '/note-book/free-code-camp/js-algorithms.md',
-                                '/note-book/free-code-camp/backend.md'
+                                '/note-book/front-end/fcc-javascript.md',
+                                '/note-book/front-end/fcc-algorithms.md',
+                                '/note-book/front-end/debounce-throttle.md',
+                                '/note-book/front-end/date.md',
+                                '/note-book/front-end/echarts.md',
+                            ],
+                        },
+                        {
+                            text: 'vue',
+                            collapsible: true,
+                            children: [
+                                '/note-book/vue-framework/nginx.md',
+                            ],
+                        },
+                        {
+                            text: 'uni-app',
+                            collapsible: true,
+                            children: [],
+                        },
+                        {
+                            text: 'nodejs',
+                            collapsible: true,
+                            children: [
+                                '/note-book/nodejs-part/fcc-backend.md',
+                                '/note-book/nodejs-part/mongodb.md',
                             ],
                         },
                         {
@@ -68,43 +90,32 @@ module.exports = {
                             ],
                         },
                         {
-                            text: 'rest-framework',
+                            text: '其他',
                             collapsible: true,
                             children: [
-                                '/note-book/rest-framework/rest-views.md'
+                                '/note-book/other-part/hexo.md',
+                                '/note-book/other-part/mockjs.md',
+                                '/note-book/other-part/mysql.md',
+                                '/note-book/other-part/wsl2.md'
                             ],
                         },
                         {
-                            text: '开源项目',
+                            text: 'python',
                             collapsible: true,
                             children: [
-                                '/note-book/project-library/mockjs.md',
-                                '/note-book/project-library/hexo.md',
-                                '/note-book/project-library/django-ckeditor.md',
-                                '/note-book/project-library/django-haystack.md',
-                                '/note-book/project-library/bar-chart-race.md',
-                                '/note-book/project-library/moviepy.md',
-                                '/note-book/project-library/pyecharts.md',
-                                '/note-book/project-library/virtualenv.md'
+                                '/note-book/python-part/pyecharts.md',
+                                '/note-book/python-part/bar-chart-race.md',
+                                '/note-book/python-part/moviepy.md',
+                                '/note-book/python-part/virtualenv.md'
                             ],
                         },
                         {
-                            text: '软件工具',
+                            text: 'django',
                             collapsible: true,
                             children: [
-                                '/note-book/software-tool/nginx.md',
-                                '/note-book/software-tool/mysql.md',
-                                '/note-book/software-tool/mongodb.md',
-                                '/note-book/software-tool/wsl2.md'
-                            ],
-                        },
-                        {
-                            text: '代码片段',
-                            collapsible: true,
-                            children: [
-                                '/note-book/code-snippet/debounce-throttle.md',
-                                '/note-book/code-snippet/date.md',
-                                '/note-book/code-snippet/echarts.md'
+                                '/note-book/django-framework/django-ckeditor.md',
+                                '/note-book/django-framework/django-haystack.md',
+                                '/note-book/django-framework/rest-views.md',
                             ],
                         },
                     ],

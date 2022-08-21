@@ -1,4 +1,4 @@
-# Echarts
+# echarts - 可视化图表库
 
 > 文档：<https://echarts.apache.org/zh/index.html>
 
@@ -6,7 +6,7 @@
 npm install echarts --save
 ```
 
-## 在 vue 中 使用
+## vue 中使用
 
 ``` js
 import * as echarts from 'echarts';
@@ -92,7 +92,7 @@ export default {
 </script>
 ```
 
-## 在 django 中使用
+## django 中使用
 
 ``` py
 # views.py

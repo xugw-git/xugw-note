@@ -1,4 +1,4 @@
-# Date
+# Date 对象
 
 ``` js
 new Date('2022/5/28 13:00:00').toLocaleString('zh-CN')
@@ -35,7 +35,7 @@ Date.now()
 // 自 1970年1月1日 00:00:00 (UTC) 到当前时间的毫秒数
 ```
 
-## 库
+## dayjs 库
 
 > <https://github.com/iamkun/dayjs>
 
