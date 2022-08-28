@@ -1,4 +1,4 @@
-# pyecharts - 可视化图表库
+# 可视化图表库 pyecharts
 
 ECharts 是一款由百度团队开源、基于 JavaScript 的数据可视化图表库，pyecharts 是 ECharts 的 Python 版本。
 

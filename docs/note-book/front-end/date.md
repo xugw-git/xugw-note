@@ -1,4 +1,4 @@
-# Date 对象
+# javascript Date 对象
 
 ``` js
 new Date('2022/5/28 13:00:00').toLocaleString('zh-CN')

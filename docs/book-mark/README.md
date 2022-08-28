@@ -30,6 +30,8 @@
 
 - [uni-app](https://github.com/dcloudio/uni-app) 使用 Vue 开发小程序、H5、App 的统一前端框架
 - [uView](https://github.com/umicro/uView2.0) 一个 uni-app UI 组件库
+- [ucharts](https://www.ucharts.cn/v2/#/) 一款基于 canvas API 开发的图表库
+- [uQRCode](https://github.com/Sansnn/uQRCode) 一款二维码生成插件
 
 ## 其他
 
@@ -126,6 +128,10 @@
 
 // 保存时自动格式化文档
 "editor.formatOnSave": true,
+// 设置 tabSize
+"editor.tabSize": 2,
+// 关闭根据文件类型自动检测 tabSize 和 Insert Spaces
+"editor.detectIndentation": false,
 
 // markdownlint 设置
 "markdownlint.config": {

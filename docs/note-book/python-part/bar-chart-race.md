@@ -1,4 +1,4 @@
-# bar chart race - 条形图模块
+# 条形图模块 bar chart race
 
 示例中的这种动图，可以由多种方法实现类似的效果：比如在线网站 Flourish ；数据可视化图表库 ECharts ；
 

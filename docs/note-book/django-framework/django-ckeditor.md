@@ -1,4 +1,4 @@
-# django 后台使用 CKEditor
+# 富文本插件 django-ckeditor
 
 django-ckeditor 是一个集成 ckeditor 富文本编辑器的 django 第三方库。
 

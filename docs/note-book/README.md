@@ -5,14 +5,17 @@
 - [free-code-camp JavaScript](/note-book/front-end/fcc-javascript.md)
 - [free-code-camp JavaScript 算法](/note-book/front-end/fcc-algorithms.md)
 - [debounce & throttle](/note-book/front-end/debounce-throttle.md)
-- [date 对象](/note-book/front-end/date.md)
-- [echarts - 可视化图表库](/note-book/front-end/echarts.md)
+- [可视化图表库 echarts](/note-book/front-end/echarts.md)
+- [javascript date 对象](/note-book/front-end/date.md)
 
 ## vue
 
 - [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
 
 ## uni-app
+
+- [二维码生成插件 uQRCode](/note-book/uni-app/uqrcode.md)
+- [图表库 uCharts](/note-book/uni-app/ucharts.md)
 
 ## nodejs
 
@@ -36,20 +39,20 @@
 
 ## 其他
 
-- [Hexo - 静态博客框架](/note-book/other-part/hexo.md)
-- [Mockjs - 模拟数据生成器](/note-book/other-part/mockjs.md)
+- [博客框架 Hexo](/note-book/other-part/hexo.md)
+- [模拟数据生成器 Mockjs](/note-book/other-part/mockjs.md)
 - [MySQL & HeidiSQL](/note-book/other-part/mysql.md)
 - [WSL2 - Ubuntu-20.04](/note-book/other-part/wsl2.md)
 
 ## python
 
-- [pyecharts - 可视化图表库](/note-book/python-part/pyecharts.md)
-- [bar chart race - 条形竞赛图模块](/note-book/python-part/bar-chart-race.md)
-- [moviepy - 视频编辑模块](/note-book/python-part/moviepy.md)
-- [virtaulenvwrapper - 虚拟环境管理工具](/note-book/python-part/virtualenv.md)
+- [可视化图表库 pyecharts](/note-book/python-part/pyecharts.md)
+- [条形竞赛图模块 bar chart race](/note-book/python-part/bar-chart-race.md)
+- [视频编辑模块 moviepy](/note-book/python-part/moviepy.md)
+- [虚拟环境管理工具 virtaulenvwrapper](/note-book/python-part/virtualenv.md)
 
 ## django
 
-- [django-ckeditor 富文本编辑器插件](/note-book/django-framework/django-ckeditor.md)
-- [django-haystack & whoosh 搜索功能插件](/note-book/django-framework/django-haystack.md)
+- [富文本插件 django-ckeditor](/note-book/django-framework/django-ckeditor.md)
+- [搜索插件 django-haystack](/note-book/django-framework/django-haystack.md)
 - [rest-framework 视图组件源码](/note-book/django-framework/rest-views.md)
