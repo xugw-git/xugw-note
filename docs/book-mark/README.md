@@ -121,10 +121,10 @@
 "terminal.integrated.defaultProfile.windows": "PowerShell",
 // 添加 GitBash 终端
 "terminal.integrated.profiles.windows": {
-        "GitBash": {
-          "path": "D:\\ProgramFiles\\Git\\bin\\bash.exe",
-        }
-      },
+  "GitBash": {
+    "path": "D:\\ProgramFiles\\Git\\bin\\bash.exe",
+    }
+  },
 
 // 保存时自动格式化文档
 "editor.formatOnSave": true,
@@ -135,20 +135,20 @@
 
 // markdownlint 设置
 "markdownlint.config": {
-    "default": true,
-    "MD024": false,  //相同标题
-    "MD033": false,  //内联HTML
-    "MD034": false,  //裸网址
-    "MD041": false,  //第一行标题
+  "default": true,
+  "MD024": false,  //相同标题
+  "MD033": false,  //内联HTML
+  "MD034": false,  //裸网址
+  "MD041": false,  //第一行标题
   },
 // 保存时修复来自 markdownlint 的所有可自动修复的错误
 "editor.codeActionsOnSave": {
-    "source.fixAll.markdownlint": true
+  "source.fixAll.markdownlint": true
   },
 // 设置 markdown 的默认格式化程序
 "[markdown]": {
   "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-},
+  },
 
 // autopep8 配置
 "python.formatting.autopep8Args": ["--ignore=E501,E402"],  // "E501": 单行代码过长(字数超过79); "E402": 模块级导入不在文件顶部
@@ -156,10 +156,29 @@
 // javascript 自动更新导入路径
 "javascript.updateImportsOnFileMove.enabled": "always",  // “prompt”: 默认值，更新路径的时候询问; “never”: 不更新导入路径也不询问
 
-// 设置 vue 的默认格式化程序
-"[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
+// 设置 js 和 vue 的默认格式化程序
+"[javascript]": {
+  "editor.defaultFormatter": "octref.vetur"
   },
+"[vue]": {
+  "editor.defaultFormatter": "octref.vetur"
+  },
+"vetur.format.defaultFormatter.html": "js-beautify-html",
+"vetur.format.defaultFormatter.js": "vscode-typescript",
+"vetur.format.defaultFormatterOptions": {
+  "js-beautify-html": {
+    // - auto: 仅在超出行长度时才对属性进行换行
+    // - force: 对除第一个属性外的其他每个属性进行换行
+    // - force-aligned: 对除第一个属性外的其他每个属性进行换行，并保持对齐
+    // - force-expand-multiline: 对每个属性进行换行
+    // - aligned-multiple: 当超出折行长度时，将属性进行垂直对齐
+    "wrap_attributes": "auto", // 换行设置[auto|force|force-aligned|force-expand-multiline]
+    "wrap_line_length": 0, // 设置一行多少字符换行，设置为 0 表示不换行
+    "semi": false, // 是否在每行末尾添加分号
+    "singleQuote": true, // 使用单引号
+    // "preserve_newlines": false, //保留空行
+    "end_with_newline": false, // 在文件结尾添加新行
+    },
 
 // 设置应通过 ESLint 验证的语言
 "eslint.validate": [ "javascript", "vue" ],
@@ -167,9 +186,6 @@
 "editor.codeActionsOnSave": {
   "source.fixAll.eslint": true
   },
-
-// 设置 vetur 的 js 格式化程序
-"vetur.format.defaultFormatter.js": "vscode-typescript",
 
 // pasteImage 图片名称前缀和保存目录
 "pasteImage.namePrefix": "IMG-",
