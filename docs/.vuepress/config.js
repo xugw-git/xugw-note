@@ -56,6 +56,7 @@ module.exports = {
               collapsible: true,
               children: [
                 '/note-book/vue-framework/nginx.md',
+                '/note-book/vue-framework/element-table.md',
               ],
             },
             {

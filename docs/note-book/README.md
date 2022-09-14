@@ -11,6 +11,7 @@
 ## vue
 
 - [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
+- [element-ui 表格](/note-book/vue-framework/element-table.md)
 
 ## uni-app
 
