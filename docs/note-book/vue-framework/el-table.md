@@ -1,4 +1,4 @@
-# element-ui 表格
+# element-ui el-table 表格
 
 > 文档：<https://element.eleme.cn/#/zh-CN/component/table>
 

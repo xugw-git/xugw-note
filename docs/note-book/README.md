@@ -11,10 +11,11 @@
 ## vue
 
 - [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
-- [element-ui 表格](/note-book/vue-framework/element-table.md)
+- [element-ui el-table 表格](/note-book/vue-framework/el-table.md)
 
 ## uni-app
 
+- [uView u-swipe-action 滑动操作](/note-book/uni-app/u-swipe-action.md)
 - [二维码生成插件 uQRCode](/note-book/uni-app/uqrcode.md)
 - [图表库 uCharts](/note-book/uni-app/ucharts.md)
 

@@ -56,13 +56,14 @@ module.exports = {
               collapsible: true,
               children: [
                 '/note-book/vue-framework/nginx.md',
-                '/note-book/vue-framework/element-table.md',
+                '/note-book/vue-framework/el-table.md',
               ],
             },
             {
               text: 'uni-app',
               collapsible: true,
               children: [
+                '/note-book/uni-app/u-swipe-action.md',
                 '/note-book/uni-app/uqrcode.md',
                 '/note-book/uni-app/ucharts.md',
               ],
