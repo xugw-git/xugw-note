@@ -57,6 +57,7 @@ module.exports = {
               children: [
                 '/note-book/vue-framework/nginx.md',
                 '/note-book/vue-framework/el-table.md',
+                '/note-book/vue-framework/el-form-rules.md',
               ],
             },
             {

@@ -12,6 +12,7 @@
 
 - [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
 - [element-ui el-table 表格](/note-book/vue-framework/el-table.md)
+- [element-ui 表单自定义校验规则](/note-book/vue-framework/el-form-rules.md)
 
 ## uni-app
 
