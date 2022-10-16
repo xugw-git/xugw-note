@@ -6,7 +6,7 @@
 npm install echarts --save
 ```
 
-## vue 中使用
+## vue 示例
 
 ``` js
 import * as echarts from 'echarts';
@@ -92,7 +92,7 @@ export default {
 </script>
 ```
 
-## django 中使用
+## django 示例
 
 ``` py
 # views.py

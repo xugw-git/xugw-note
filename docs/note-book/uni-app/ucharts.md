@@ -2,7 +2,7 @@
 
 > 文档：<https://www.ucharts.cn/v2/#/>
 
-## 使用
+## 示例
 
 ``` vue
 <template>

@@ -19,6 +19,7 @@
 - [uView u-swipe-action 滑动操作](/note-book/uni-app/u-swipe-action.md)
 - [二维码生成插件 uQRCode](/note-book/uni-app/uqrcode.md)
 - [图表库 uCharts](/note-book/uni-app/ucharts.md)
+- [uView u-popup 封装 u-datetime-picker](/note-book/uni-app/u-datetime-picker.md)
 
 ## nodejs
 

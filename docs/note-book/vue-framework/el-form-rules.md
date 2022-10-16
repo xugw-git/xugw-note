@@ -2,7 +2,7 @@
 
 > 文档：<https://element.eleme.cn/#/zh-CN/component/form#zi-ding-yi-xiao-yan-gui-ze>
 
-## 使用
+## 示例
 
 ``` vue
 <template>

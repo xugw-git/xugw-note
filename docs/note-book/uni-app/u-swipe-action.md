@@ -2,7 +2,7 @@
 
 > 文档：<https://v1.uviewui.com/components/swipeAction.html>
 
-## 使用
+## 示例
 
 ``` vue
 <template>

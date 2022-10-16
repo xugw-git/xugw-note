@@ -25,6 +25,7 @@
 - [vee-validate](https://github.com/logaretm/vee-validate) 一个 vue 表单验证库
 - [vuesax](https://github.com/lusaxweb/vuesax) 基于 vue 的 UI 组件框架
 - [buefy](https://github.com/buefy/buefy) 基于 Bulma 框架和设计的轻量级 Vue 响应式 UI 组件库
+- [vue-plugin-hiprint](https://github.com/CcSimple/vue-plugin-hiprint) For Vue2/Vue3 基于 jQuery 的打印项目
 
 ### uni-app
 

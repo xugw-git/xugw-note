@@ -6,7 +6,7 @@ Mock.js 是一款模拟数据生成器，旨在帮助前端攻城师独立于后
 > [语法规范](<http://mockjs.com/0.1/#%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83>)  
 > [示例](<http://mockjs.com/examples.html#Object>)
 
-## 安装 & 使用
+## 安装 & 示例
 
 ``` bash
 npm install mockjs

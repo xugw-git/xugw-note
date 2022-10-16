@@ -2,7 +2,7 @@
 
 > 文档：<https://element.eleme.cn/#/zh-CN/component/table>
 
-## 使用
+## 示例
 
 ``` vue
 <template>

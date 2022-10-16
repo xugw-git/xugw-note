@@ -2,7 +2,7 @@
 
 > 文档：<https://doc.uqrcode.cn/>
 
-## 使用
+## 示例
 
 ``` vue
 <template>

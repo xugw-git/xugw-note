@@ -67,6 +67,7 @@ module.exports = {
                 '/note-book/uni-app/u-swipe-action.md',
                 '/note-book/uni-app/uqrcode.md',
                 '/note-book/uni-app/ucharts.md',
+                '/note-book/uni-app/u-datetime-picker.md',
               ],
             },
             {
