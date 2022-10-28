@@ -2,29 +2,30 @@
 
 ## 前端
 
-- [free-code-camp JavaScript](/note-book/front-end/fcc-javascript.md)
-- [free-code-camp JavaScript 算法](/note-book/front-end/fcc-algorithms.md)
-- [debounce & throttle](/note-book/front-end/debounce-throttle.md)
-- [可视化图表库 echarts](/note-book/front-end/echarts.md)
-- [javascript date 对象](/note-book/front-end/date.md)
+- [free-code-camp JavaScript](/note-book/frontend/fcc-javascript.md)
+- [free-code-camp JavaScript 算法](/note-book/frontend/fcc-algorithms.md)
+- [debounce & throttle](/note-book/frontend/debounce-throttle.md)
+- [可视化图表库 echarts](/note-book/frontend/echarts.md)
+- [javascript date 对象](/note-book/frontend/date.md)
+- [vue 中使用 drag 事件](/note-book/frontend/drag.md)
 
 ## vue
 
-- [nginx 部署 vue 项目](/note-book/vue-framework/nginx.md)
-- [element-ui el-table 表格](/note-book/vue-framework/el-table.md)
-- [element-ui 表单自定义校验规则](/note-book/vue-framework/el-form-rules.md)
+- [nginx 部署 vue 项目](/note-book/vue/nginx.md)
+- [element-ui el-table 表格](/note-book/vue/el-table.md)
+- [element-ui 表单自定义校验规则](/note-book/vue/el-form-rules.md)
 
-## uni-app
+## uniapp
 
-- [uView u-swipe-action 滑动操作](/note-book/uni-app/u-swipe-action.md)
-- [二维码生成插件 uQRCode](/note-book/uni-app/uqrcode.md)
-- [图表库 uCharts](/note-book/uni-app/ucharts.md)
-- [uView u-popup 封装 u-datetime-picker](/note-book/uni-app/u-datetime-picker.md)
+- [uView u-swipe-action 滑动操作](/note-book/uniapp/u-swipe-action.md)
+- [二维码生成插件 uQRCode](/note-book/uniapp/uqrcode.md)
+- [图表库 uCharts](/note-book/uniapp/ucharts.md)
+- [uView u-popup 封装 u-datetime-picker](/note-book/uniapp/u-datetime-picker.md)
 
 ## nodejs
 
-- [free-code-camp 后端开发](/note-book/nodejs-part/fcc-backend.md)
-- [MongoDB & Mongoose](/note-book/nodejs-part/mongodb.md)
+- [free-code-camp 后端开发](/note-book/nodejs/fcc-backend.md)
+- [MongoDB & Mongoose](/note-book/nodejs/mongodb.md)
 
 ## JS 数据结构 & 算法
 
@@ -43,20 +44,20 @@
 
 ## 其他
 
-- [博客框架 Hexo](/note-book/other-part/hexo.md)
-- [模拟数据生成器 Mockjs](/note-book/other-part/mockjs.md)
-- [MySQL & HeidiSQL](/note-book/other-part/mysql.md)
-- [WSL2 - Ubuntu-20.04](/note-book/other-part/wsl2.md)
+- [博客框架 Hexo](/note-book/other/hexo.md)
+- [模拟数据生成器 Mockjs](/note-book/other/mockjs.md)
+- [MySQL & HeidiSQL](/note-book/other/mysql.md)
+- [WSL2 - Ubuntu-20.04](/note-book/other/wsl2.md)
 
 ## python
 
-- [可视化图表库 pyecharts](/note-book/python-part/pyecharts.md)
-- [条形竞赛图模块 bar chart race](/note-book/python-part/bar-chart-race.md)
-- [视频编辑模块 moviepy](/note-book/python-part/moviepy.md)
-- [虚拟环境管理工具 virtaulenvwrapper](/note-book/python-part/virtualenv.md)
+- [可视化图表库 pyecharts](/note-book/python/pyecharts.md)
+- [条形竞赛图模块 bar chart race](/note-book/python/bar-chart-race.md)
+- [视频编辑模块 moviepy](/note-book/python/moviepy.md)
+- [虚拟环境管理工具 virtaulenvwrapper](/note-book/python/virtualenv.md)
 
 ## django
 
-- [富文本插件 django-ckeditor](/note-book/django-framework/django-ckeditor.md)
-- [搜索插件 django-haystack](/note-book/django-framework/django-haystack.md)
-- [rest-framework 视图组件源码](/note-book/django-framework/rest-views.md)
+- [富文本插件 django-ckeditor](/note-book/django/django-ckeditor.md)
+- [搜索插件 django-haystack](/note-book/django/django-haystack.md)
+- [rest-framework 视图组件源码](/note-book/django/rest-views.md)

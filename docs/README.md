@@ -9,10 +9,10 @@ actions:
     link: /note-book/
     type: primary
 features:
+  - title: 🏠 主页
+    details: https://github.com/xugw-git
   - title: 📔 笔记
     details: 我的笔记、文章
   - title: 🏷️ 书签
-    details: 使用过的框架、库以及插件
-  - title: 🎨 作品
-    details: 练习过的案例和项目
+    details: 使用过的框架、库、插件
 ---

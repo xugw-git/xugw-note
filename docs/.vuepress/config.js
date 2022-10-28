@@ -30,10 +30,6 @@ module.exports = {
         text: '🏷️ 书签',
         link: '/book-mark/',
       },
-      {
-        text: '🎨 作品',
-        link: '/works-link/',
-      },
     ],
     sidebar: {
       '/note-book/': [
@@ -44,38 +40,39 @@ module.exports = {
               text: '前端',
               collapsible: true,
               children: [
-                '/note-book/front-end/fcc-javascript.md',
-                '/note-book/front-end/fcc-algorithms.md',
-                '/note-book/front-end/debounce-throttle.md',
-                '/note-book/front-end/date.md',
-                '/note-book/front-end/echarts.md',
+                '/note-book/frontend/fcc-javascript.md',
+                '/note-book/frontend/fcc-algorithms.md',
+                '/note-book/frontend/debounce-throttle.md',
+                '/note-book/frontend/echarts.md',
+                '/note-book/frontend/date.md',
+                '/note-book/frontend/drag.md',
               ],
             },
             {
               text: 'vue',
               collapsible: true,
               children: [
-                '/note-book/vue-framework/nginx.md',
-                '/note-book/vue-framework/el-table.md',
-                '/note-book/vue-framework/el-form-rules.md',
+                '/note-book/vue/nginx.md',
+                '/note-book/vue/el-table.md',
+                '/note-book/vue/el-form-rules.md',
               ],
             },
             {
-              text: 'uni-app',
+              text: 'uniapp',
               collapsible: true,
               children: [
-                '/note-book/uni-app/u-swipe-action.md',
-                '/note-book/uni-app/uqrcode.md',
-                '/note-book/uni-app/ucharts.md',
-                '/note-book/uni-app/u-datetime-picker.md',
+                '/note-book/uniapp/u-swipe-action.md',
+                '/note-book/uniapp/uqrcode.md',
+                '/note-book/uniapp/ucharts.md',
+                '/note-book/uniapp/u-datetime-picker.md',
               ],
             },
             {
               text: 'nodejs',
               collapsible: true,
               children: [
-                '/note-book/nodejs-part/fcc-backend.md',
-                '/note-book/nodejs-part/mongodb.md',
+                '/note-book/nodejs/fcc-backend.md',
+                '/note-book/nodejs/mongodb.md',
               ],
             },
             {
@@ -100,29 +97,29 @@ module.exports = {
               text: '其他',
               collapsible: true,
               children: [
-                '/note-book/other-part/hexo.md',
-                '/note-book/other-part/mockjs.md',
-                '/note-book/other-part/mysql.md',
-                '/note-book/other-part/wsl2.md'
+                '/note-book/other/hexo.md',
+                '/note-book/other/mockjs.md',
+                '/note-book/other/mysql.md',
+                '/note-book/other/wsl2.md'
               ],
             },
             {
               text: 'python',
               collapsible: true,
               children: [
-                '/note-book/python-part/pyecharts.md',
-                '/note-book/python-part/bar-chart-race.md',
-                '/note-book/python-part/moviepy.md',
-                '/note-book/python-part/virtualenv.md'
+                '/note-book/python/pyecharts.md',
+                '/note-book/python/bar-chart-race.md',
+                '/note-book/python/moviepy.md',
+                '/note-book/python/virtualenv.md'
               ],
             },
             {
               text: 'django',
               collapsible: true,
               children: [
-                '/note-book/django-framework/django-ckeditor.md',
-                '/note-book/django-framework/django-haystack.md',
-                '/note-book/django-framework/rest-views.md',
+                '/note-book/django/django-ckeditor.md',
+                '/note-book/django/django-haystack.md',
+                '/note-book/django/rest-views.md',
               ],
             },
           ],
@@ -132,12 +129,6 @@ module.exports = {
         {
           text: '书签',
           link: '/book-mark/'
-        },
-      ],
-      '/works-link/': [
-        {
-          text: '作品',
-          link: '/works-link/'
         },
       ],
     },

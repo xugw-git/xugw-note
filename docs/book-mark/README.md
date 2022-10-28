@@ -10,6 +10,7 @@
 - [tippyjs](https://github.com/atomiks/tippyjs) 一个 Tooltip、popover、下拉菜单库
 - [animate.css](https://github.com/animate-css/animate.css) 一个跨浏览器的 CSS 动画库
 - [popmotion](https://github.com/Popmotion/popmotion) 一个函数式声明的动画库
+- [Luckysheet](https://github.com/dream-num/Luckysheet) 一款纯前端类似excel的在线表格
 
 ### vue
 
@@ -27,10 +28,10 @@
 - [buefy](https://github.com/buefy/buefy) 基于 Bulma 框架和设计的轻量级 Vue 响应式 UI 组件库
 - [vue-plugin-hiprint](https://github.com/CcSimple/vue-plugin-hiprint) For Vue2/Vue3 基于 jQuery 的打印项目
 
-### uni-app
+### uniapp
 
-- [uni-app](https://github.com/dcloudio/uni-app) 使用 Vue 开发小程序、H5、App 的统一前端框架
-- [uView](https://github.com/umicro/uView2.0) 一个 uni-app UI 组件库
+- [uniapp](https://github.com/dcloudio/uniapp) 使用 Vue 开发小程序、H5、App 的统一前端框架
+- [uView](https://github.com/umicro/uView2.0) 一个 uniapp UI 组件库
 - [ucharts](https://www.ucharts.cn/v2/#/) 一款基于 canvas API 开发的图表库
 - [uQRCode](https://github.com/Sansnn/uQRCode) 一款二维码生成插件
 
