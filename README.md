@@ -15,9 +15,5 @@ npm run serve
 ### Compiles and minifies for production
 
 ``` sh
-npm run docs:build
+npm run build
 ```
-
-### Website
-
-<https://xugw-note.netlify.app/>

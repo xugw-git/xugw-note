@@ -10,7 +10,8 @@
 - [tippyjs](https://github.com/atomiks/tippyjs) 一个 Tooltip、popover、下拉菜单库
 - [animate.css](https://github.com/animate-css/animate.css) 一个跨浏览器的 CSS 动画库
 - [popmotion](https://github.com/Popmotion/popmotion) 一个函数式声明的动画库
-- [Luckysheet](https://github.com/dream-num/Luckysheet) 一款纯前端类似excel的在线表格
+- [Luckysheet](https://github.com/dream-num/Luckysheet) 一款纯前端类似 excel 的在线表格
+- [exceljs](https://github.com/exceljs/exceljs) 一个 Excel 电子表格文件逆向工程项目
 
 ### vue
 
@@ -181,6 +182,7 @@
     // "preserve_newlines": false, //保留空行
     "end_with_newline": false, // 在文件结尾添加新行
     },
+  }
 
 // 设置应通过 ESLint 验证的语言
 "eslint.validate": [ "javascript", "vue" ],

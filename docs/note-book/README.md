@@ -8,6 +8,7 @@
 - [可视化图表库 echarts](/note-book/frontend/echarts.md)
 - [javascript date 对象](/note-book/frontend/date.md)
 - [vue 中使用 drag 事件](/note-book/frontend/drag.md)
+- [vue 中获取 DOM](/note-book/frontend/vue-ref.md)
 
 ## vue
 

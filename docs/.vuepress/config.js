@@ -46,6 +46,7 @@ module.exports = {
                 '/note-book/frontend/echarts.md',
                 '/note-book/frontend/date.md',
                 '/note-book/frontend/drag.md',
+                '/note-book/frontend/vue-ref.md',
               ],
             },
             {
