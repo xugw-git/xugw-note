@@ -9,6 +9,7 @@
 - [javascript date 对象](/note-book/frontend/date.md)
 - [vue 中使用 drag 事件](/note-book/frontend/drag.md)
 - [vue 中获取 DOM](/note-book/frontend/vue-ref.md)
+- [luckysheet 使用 exceljs 导出 excel](/note-book/frontend/luckysheet-exceljs.md)
 
 ## vue
 

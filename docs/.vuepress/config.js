@@ -47,6 +47,7 @@ module.exports = {
                 '/note-book/frontend/date.md',
                 '/note-book/frontend/drag.md',
                 '/note-book/frontend/vue-ref.md',
+                '/note-book/frontend/luckysheet-exceljs.md',
               ],
             },
             {
