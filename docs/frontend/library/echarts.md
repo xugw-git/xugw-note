@@ -1,4 +1,4 @@
-# 可视化图表库 echarts
+# eCharts
 
 > 文档：<https://echarts.apache.org/zh/index.html>
 

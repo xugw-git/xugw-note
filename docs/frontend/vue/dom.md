@@ -1,4 +1,4 @@
-# vue 中获取 DOM
+# 获取 DOM
 
 ## ref、$refs、$el
 

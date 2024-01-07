@@ -1,4 +1,4 @@
-# element-ui 表单自定义校验规则
+# el表单自定义校验规则
 
 > 文档：<https://element.eleme.cn/#/zh-CN/component/form#zi-ding-yi-xiao-yan-gui-ze>
 

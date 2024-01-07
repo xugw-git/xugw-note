@@ -14,6 +14,133 @@
 
 ## 完整代码
 
+<CodeGroup>
+  <CodeGroupItem title="改动部分" active>
+
+```js{9,21-26,38-46,74-83,104-105}
+export async function exportSheetExcel(luckysheet, name = "file") { // 参数为luckysheet.getluckysheetfile()获取的对象
+  // 1.创建工作簿，可以为工作簿添加属性
+  const workbook = new Excel.Workbook()
+  // 2.创建表格，第二个参数可以配置创建什么样的工作表
+  luckysheet.every(function (table) {
+    if (table.data.length === 0) return true
+    const worksheet = workbook.addWorksheet(name)
+    // 3.设置单元格合并,设置单元格边框,设置单元格样式,设置值
+    setStyleAndValue(table.data, worksheet, table.luckysheet_alternateformat_save)
+    setMerge(table.config.merge, worksheet)
+    setBorder(table, worksheet)
+    setImages(table, worksheet, workbook)
+    return true
+  })
+  // 4.写入 buffer
+  const buffer = await workbook.xlsx.writeBuffer()
+  // 5.保存为文件
+  saveFile(buffer, name)
+}
+
+var setStyleAndValue = function (cellArr, worksheet, format) {
+  if (!Array.isArray(cellArr)) return
+  let formatArr = []
+  if (Array.isArray(format) && format.length > 0) {
+    formatArr = format
+  }
+  cellArr.forEach(function (row, rowid) {
+    const dbrow = worksheet.getRow(rowid + 1)
+    //设置单元格行高,默认乘以1.2倍
+    dbrow.height = luckysheet.getRowHeight[[rowid]](rowid) * 1.2
+    row.every(function (cell, columnid) {
+      if (!cell) return true
+      if (rowid == 0) {
+        const dobCol = worksheet.getColumn(columnid + 1)
+        //设置单元格列宽除以8
+        dobCol.width = luckysheet.getColumnWidth[[columnid]](columnid) / 8
+      }
+      let fill
+      let font
+      if (!!formatFindCell(formatArr, rowid, columnid)) {
+        fill = fillConvert[formatFindCell(formatArr, rowid, columnid](1))
+        font = fontConvert[cell.ff, formatFindCell(formatArr, rowid, columnid](0), cell.bl, cell.it, cell.fs, cell.cl, cell.ul)
+      } else {
+        fill = fillConvert(cell.bg)
+        font = fontConvert(cell.ff, cell.fc, cell.bl, cell.it, cell.fs, cell.cl, cell.ul)
+      }
+      let alignment = alignmentConvert(cell.vt, cell.ht, cell.tb, cell.tr)
+      let value
+
+      var v = ''
+      if (cell.ct && cell.ct.t == 'inlineStr') {
+        var s = cell.ct.s
+        s.forEach(function (val, num) {
+          v += val.v
+        })
+      } else {
+        v = cell.v
+      }
+      if (cell.f) {
+        value = { formula: cell.f, result: v }
+      } else {
+        value = v
+      }
+      let target = worksheet.getCell(rowid + 1, columnid + 1)
+      target.fill = fill
+      target.font = font
+      target.alignment = alignment
+      target.value = value
+      return true
+    })
+  })
+}
+
+// 找出单元格在luckysheet_alternateformat_save中的字体和背景颜色
+const formatFindCell = (formatArr, rowid, columnid) => {
+  let formatItem = formatArr.find(i => i.cellrange.row[0] <= rowid && i.cellrange.row[1] >= rowid && i.cellrange.column[0] <= columnid && i.cellrange.column[1] >= columnid)
+  if (!formatItem) return false
+  if (formatItem.hasRowHeader && rowid === formatItem.cellrange.row[0]) return [formatItem.format.head.fc, formatItem.format.head.bc]
+  if (formatItem.hasRowFooter && rowid === formatItem.cellrange.row[1]) return [formatItem.format.foot.fc, formatItem.format.foot.bc]
+  if ((rowid - formatItem.cellrange.row[0]) % 2 === 0) return [formatItem.format.one.fc, formatItem.format.two.bc]
+  if ((rowid - formatItem.cellrange.row[0]) % 2 === 1) return [formatItem.format.two.fc, formatItem.format.one.bc]
+  return false
+}
+
+var fontConvert = function (ff = 0, fc = '#000000', bl = 0, it = 0, fs = 10, cl = 0, ul = 0) { // luckysheet：ff(样式), fc(颜色), bl(粗体), it(斜体), fs(大小), cl(删除线), ul(下划线)
+  const luckyToExcel = {
+    0: '微软雅黑',
+    1: '宋体（Song）',
+    2: '黑体（ST Heiti）',
+    3: '楷体（ST Kaiti）',
+    4: '仿宋（ST FangSong）',
+    5: '新宋体（ST Song）',
+    6: '华文新魏',
+    7: '华文行楷',
+    8: '华文隶书',
+    9: 'Arial',
+    10: 'Times New Roman ',
+    11: 'Tahoma ',
+    12: 'Verdana',
+    num2bl: function (num) {
+      return num === 0 ? false : true
+    }
+  }
+  if (!fc) { return '#000000' }
+  fc = fc.indexOf('rgb') > -1 ? rgb2hex(fc) : fc
+  let font = {
+    name: ff,
+    family: 1,
+    size: fs,
+    color: { argb: fc.replace('#', '') },
+    bold: luckyToExcel.num2bl(bl),
+    italic: luckyToExcel.num2bl(it),
+    underline: luckyToExcel.num2bl(ul),
+    strike: luckyToExcel.num2bl(cl)
+  }
+
+  return font
+}
+```
+
+  </CodeGroupItem>
+  <CodeGroupItem title="完整代码">
+
 ``` js
 const Excel = require('exceljs')
 
@@ -48,7 +175,6 @@ var saveFile = function (buf, name) {
   document.body.removeChild(downloadElement) // 下载完成移除元素
   window.URL.revokeObjectURL(href) // 释放掉blob对象
 }
-
 
 var setMerge = function (luckyMerge = {}, worksheet) {
   const mergearr = Object.values(luckyMerge)
@@ -1261,7 +1387,6 @@ var getObjType = function (obj) {
   return map[toString.call(obj)]
 }
 
-
 var setStyleAndValue = function (cellArr, worksheet, format) {
   if (!Array.isArray(cellArr)) return
   let formatArr = []
@@ -1271,19 +1396,19 @@ var setStyleAndValue = function (cellArr, worksheet, format) {
   cellArr.forEach(function (row, rowid) {
     const dbrow = worksheet.getRow(rowid + 1)
     //设置单元格行高,默认乘以1.2倍
-    dbrow.height = luckysheet.getRowHeight([rowid])[rowid] * 1.2
+    dbrow.height = luckysheet.getRowHeight[[rowid]](rowid) * 1.2
     row.every(function (cell, columnid) {
       if (!cell) return true
       if (rowid == 0) {
         const dobCol = worksheet.getColumn(columnid + 1)
         //设置单元格列宽除以8
-        dobCol.width = luckysheet.getColumnWidth([columnid])[columnid] / 8
+        dobCol.width = luckysheet.getColumnWidth[[columnid]](columnid) / 8
       }
       let fill
       let font
       if (!!formatFindCell(formatArr, rowid, columnid)) {
-        fill = fillConvert(formatFindCell(formatArr, rowid, columnid)[1])
-        font = fontConvert(cell.ff, formatFindCell(formatArr, rowid, columnid)[0], cell.bl, cell.it, cell.fs, cell.cl, cell.ul)
+        fill = fillConvert[formatFindCell(formatArr, rowid, columnid](1))
+        font = fontConvert[cell.ff, formatFindCell(formatArr, rowid, columnid](0), cell.bl, cell.it, cell.fs, cell.cl, cell.ul)
       } else {
         fill = fillConvert(cell.bg)
         font = fontConvert(cell.ff, cell.fc, cell.bl, cell.it, cell.fs, cell.cl, cell.ul)
@@ -1333,7 +1458,7 @@ var rgb2hex = function (rgb) {
   }
 
   var ds = rgb.split(/\D+/)
-  var decimal = Number(ds[1]) * 65536 + Number(ds[2]) * 256 + Number(ds[3])
+  var decimal = Number(ds[1]) *65536 + Number(ds[2])* 256 + Number(ds[3])
   return "#" + zero_fill_hex(decimal, 6)
 
   function zero_fill_hex(num, digits) {
@@ -1431,3 +1556,6 @@ var alignmentConvert = function (vt = 'default', ht = 'default', tb = 'default',
 
 }
 ```
+
+  </CodeGroupItem>
+</CodeGroup>

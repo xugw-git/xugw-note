@@ -1,4 +1,4 @@
-# vue 中使用 drag 事件
+# drag 事件
 
 > 文档：<https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/drag_event>
 >

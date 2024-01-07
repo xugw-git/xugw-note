@@ -1,4 +1,4 @@
-# free-code-camp JavaScript
+# JavaScript
 
 ## 基础 JavaScript
 
