@@ -1,7 +1,10 @@
-const { defaultTheme } = require('@vuepress/theme-default')
-const { searchPlugin } = require('@vuepress/plugin-search')
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
-module.exports = {
+export default defineUserConfig({
+  bundler: viteBundler(),
   base: '/',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
@@ -157,4 +160,4 @@ module.exports = {
       },
     }),
   ],
-}
+})
