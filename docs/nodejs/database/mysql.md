@@ -1,12 +1,10 @@
-# MySQL & HeidiSQL
+# MySQL
 
 MySQL 是最流行的关系型数据库管理系统之一，由瑞典 MySQL AB 公司开发，属于 Oracle 旗下产品。
-HeidiSQL 是一款 MySQL 的图形化界面工具。
 
 ## 下载
 
 > MySQL：<https://dev.mysql.com/downloads/installer/>  
-> HeidiSQL：<https://www.heidisql.com/download.php>
 
 ## 安装
 

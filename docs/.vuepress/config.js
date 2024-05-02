@@ -37,8 +37,6 @@ module.exports = {
               children: [
                 '/frontend/free-code-camp/javascript.md',
                 '/frontend/free-code-camp/algorithms.md',
-                '/frontend/free-code-camp/backend.md',
-                '/frontend/free-code-camp/mongodb.md',
               ],
             },
             {
@@ -99,6 +97,29 @@ module.exports = {
           ],
         },
         {
+          text: 'NODEJS',
+          link: '/nodejs/',
+          collapsible: true,
+          children: [
+            {
+              text: 'free-code-camp',
+              collapsible: true,
+              children: [
+                '/nodejs/free-code-camp/backend.md',
+                '/nodejs/free-code-camp/mongodb.md',
+              ],
+            },
+            {
+              text: '数据库',
+              collapsible: true,
+              children: [
+                '/nodejs/database/mysql.md',
+                '/nodejs/database/mongodb.md',
+              ],
+            },
+          ]
+        },
+        {
           text: 'PYTHON',
           link: '/python/',
           collapsible: true,
@@ -124,28 +145,6 @@ module.exports = {
             }
           ]
         },
-        {
-          text: '其他',
-          link: '/other/',
-          collapsible: true,
-          children: [
-            {
-              text: '框架/库',
-              collapsible: true,
-              children: [
-                '/other/library/hexo.md',
-                '/other/library/mockjs.md',
-              ],
-            },
-            {
-              text: '工具',
-              children: [
-                '/other/tool/mysql.md',
-                '/other/tool/wsl2.md'
-              ],
-            },
-          ]
-        }
       ],
     },
   }),

@@ -4,8 +4,6 @@
 
 - [JavaScript](/frontend/free-code-camp/javascript.md)
 - [JavaScript 算法](/frontend/free-code-camp/algorithms.md)
-- [backend](/frontend/free-code-camp/backend.md)
-- [MongoDB & Mongoose](/frontend/free-code-camp/mongodb.md)
 
 ## 🏷️ vue
 - [vue 中使用 drag 事件](/frontend/vue/drag.md)

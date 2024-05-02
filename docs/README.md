@@ -2,6 +2,6 @@
 
 ## 📒 [前端](/frontend/)
 
-## 📒 [PYTHON](/python/)
+## 📒 [NODEJS](/nodejs/)
 
-## 📒 [其他](/other/)
+## 📒 [PYTHON](/python/)
